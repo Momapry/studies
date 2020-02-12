@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding:0;
+}
+header{
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    z-index: 12;
+   
+}
+header nav{
+    width: 1200px;
+    padding: 30px 20px 5px 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+        
+}
+.menu li a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.menu li{
+    float:left;
+    margin-left: 20px; 
+    list-style: none;
+    
+}
+.wrap-poster {
+    width: 100%;
+    height: 200px;
+    background-image: url(niffler.jpg);
+    background-repeat: repeat;
+    background-position: left top;
+    background-size: cover;
+    align-items: center;
+    display:flex;
+    flex-direction: row;
+    color: white;    
+}
+#home {
+    font-style: italic;
+    padding-left; 500px;
+    padding bottom; 320px;
+    font-size 30px;
+}
+#first_headline {
+    padding-left: 50px;
+    padding-bottom: 20px;
+    font-size: 50;
+    font-family: 'Sigmar One', cursive;
+}
+#contact {
+    background-color: beige;
+    width: 100px;
+    display: inline-block
+        
+    
+}
+.regjeringsbygget {
+    width: 50%;
+}
+#achievements, #Another bright idea{
+    width: 40%;
+    float:left;
+    padding-left: 70px;
+    padding-top:  20px;
+    
+}
+.platypus {
+    width: 20%;
+    float: left;
+}
+.operahouse {
+    width: 10%;
+    float: left;
+}
